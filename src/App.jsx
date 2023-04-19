@@ -1,5 +1,6 @@
 import Body from "./components/Body";
 import Header from "./components/Header";
+import PrintButton from "./components/PrintButton";
 
 export default function App() {
 	return (
@@ -7,6 +8,8 @@ export default function App() {
 			<Header />
 
 			<Body />
+
+			<PrintButton />
 		</div>
 	)
 }
