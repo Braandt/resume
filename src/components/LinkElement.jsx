@@ -8,7 +8,8 @@ export default function LinkElement({ title, subtitle, href }) {
                 target="_blank"
             >
                 <div
-                    className="flex justify-between items-center bg-white shadow-lg px-4 py-2 rounded-xl"
+                    className="flex justify-between items-center bg-white shadow-sm px-4 py-2 rounded-xl transition-all
+                    hover:shadow-lg"
                 >
                     <div className="w-[90%]">
                         <h1 className="text-primary-500 font-bold whitespace-nowrap overflow-hidden text-ellipsis">

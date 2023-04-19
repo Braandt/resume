@@ -36,7 +36,7 @@ function Language({ language, level, score }) {
         <div
             key={item}
             className={`h-full aspect-square rounded-full
-            ${score >= item ? 'bg-green-500' : 'bg-neutral-300'}`}
+            ${score >= item ? 'bg-emerald-500' : 'bg-neutral-300'}`}
         />
     ))
 

@@ -9,7 +9,8 @@ export default function Techs() {
         'MongoDB',
         'R',
         'React',
-        'Next',
+        'Threejs',
+        'Nextjs',
         'Redux',
         'RestAPI',
         'Tailwind',]
@@ -33,7 +34,7 @@ export default function Techs() {
 
 function Tech({ children }) {
     return (
-        <div className="bg-white shadow-md px-4 py-2 rounded-full text-primary-600">
+        <div className="bg-white shadow-md px-4 py-2 rounded-full text-primary-600 cursor-default">
             {children}
         </div>
     )
