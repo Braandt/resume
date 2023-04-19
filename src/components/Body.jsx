@@ -9,12 +9,12 @@ import Techs from "./Techs";
 export default function Body() {
     return (
         <div
-            className="flex flex-col px-6 py-12 grid-cols-2 gap-12
-        md:px-24 md:grid"
+            className="flex flex-col px-6 py-12 grid-cols-10 gap-12
+        md:px-32 md:grid"
         >
 
             {/* Left */}
-            <div className="flex flex-col gap-8 ">
+            <div className="flex flex-col gap-12 col-span-6">
 
                 <Summary />
 
@@ -23,7 +23,7 @@ export default function Body() {
             </div>
 
             {/* Right */}
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-12 col-span-4">
 
                 <Education />
 

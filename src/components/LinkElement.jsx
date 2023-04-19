@@ -14,7 +14,7 @@ export default function LinkElement({ title, subtitle, href }) {
                         <h1 className="text-primary-500 font-bold whitespace-nowrap overflow-hidden text-ellipsis">
                             {title}
                         </h1>
-                        <h2 className="text-base text-neutral-700">{subtitle}</h2>
+                        <h2 className="text-base text-neutral-400">{subtitle}</h2>
                     </div>
                     <FaLink className="text-primary-400 min-w-fit" />
                 </div>

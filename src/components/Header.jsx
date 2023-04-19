@@ -16,10 +16,10 @@ export default function Header() {
         <div
             className="items w-full gap-12 bg-primary-800 text-primary-50 px-6 py-12
             sm:flex
-            md:px-24"
+            md:px-32"
         >
             <img
-                className="h-52 rounded-xl mb-4 self-center
+                className="h-72 rounded-xl mb-4 self-center
                 sm:mb-0"
                 src="/me2.jpg"
                 alt="Photo of me"
@@ -27,11 +27,11 @@ export default function Header() {
             <div className="flex flex-col self-end">
                 <h1
                     className='font-semibold mb-2 text-2xl
-                sm:text-4xl'
+                sm:text-6xl'
                 >
                     Leonardo de Oliveira Brandt
                 </h1>
-                <h2 className='mb-8 text-xl font-thin uppercase'>Front End Developer</h2>
+                <h2 className='mb-8 text-2xl font-thin uppercase'>Front End Developer</h2>
                 <div
                     className='flex flex-wrap justify-between gap-y-2 gap-x-8
                 md:w-4/6 md:justify-normal'

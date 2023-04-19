@@ -40,10 +40,10 @@ export default function Experience() {
 function ExperienceBlock({ title, company, date, children }) {
     return (
         <div>
-            <div className="text-xl font-bold text-primary-600">
+            <div className="text-2xl font-bold text-primary-600">
                 {title}
             </div>
-            <div className="text-primary-500 text-lg">
+            <div className="text-primary-500 text-xl">
                 {company}
             </div>
             <MyDate date={date} />
