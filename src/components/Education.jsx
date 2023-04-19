@@ -13,7 +13,7 @@ export default function Education() {
             />
             <hr className="my-4" />
             <EducationBlock
-                title='Mechanical Engineer Bachelor'
+                title='Mechanical Engineer'
                 company='Universidade Tecnologica Federal do Paraná'
                 date={{ start: '2016', end: '2021' }}
             />

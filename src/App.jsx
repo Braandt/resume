@@ -3,7 +3,7 @@ import Header from "./components/Header";
 
 export default function App() {
 	return (
-		<div className="bg-neutral-50 aspect-[1.414/2] text-slate-900">
+		<div className="bg-slate-100 aspect-[1.414/2] text-slate-900">
 			<Header />
 
 			<Body />

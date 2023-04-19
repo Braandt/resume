@@ -13,16 +13,29 @@ export default function Header() {
     ]
 
     return (
-        <div className="flex items-end w-full h-1/6 gap-12 bg-primary-800 text-primary-50 px-24 py-12">
+        <div
+            className="items w-full gap-12 bg-primary-800 text-primary-50 px-6 py-12
+            sm:flex
+            md:px-24"
+        >
             <img
-                className="h-full rounded-xl"
+                className="h-52 rounded-xl mb-4 self-center
+                sm:mb-0"
                 src="/me2.jpg"
                 alt="Photo of me"
             />
-            <div className="flex flex-col w-4/6">
-                <h1 className='text-4xl font-semibold mb-2'>Leonardo de Oliveira Brandt</h1>
+            <div className="flex flex-col self-end">
+                <h1
+                    className='font-semibold mb-2 text-2xl
+                sm:text-4xl'
+                >
+                    Leonardo de Oliveira Brandt
+                </h1>
                 <h2 className='mb-8 text-xl font-thin uppercase'>Front End Developer</h2>
-                <div className='flex flex-wrap justify-between gap-y-2'>
+                <div
+                    className='flex flex-wrap justify-between gap-y-2 gap-x-8
+                md:w-4/6 md:justify-normal'
+                >
                     {infos.map(info => (
                         <a
                             key={info.info}

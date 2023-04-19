@@ -1,4 +1,3 @@
-import Block from "./Block";
 import Courses from "./Courses";
 import Education from "./Education";
 import Experience from "./Experience";
@@ -9,22 +8,26 @@ import Techs from "./Techs";
 
 export default function Body() {
     return (
-        <div className="px-24 py-12 grid grid-cols-10 gap-12">
+        <div
+            className="flex flex-col px-6 py-12 grid-cols-2 gap-12
+        md:px-24 md:grid"
+        >
 
             {/* Left */}
-            <div className="flex flex-col gap-8 col-span-6">
+            <div className="flex flex-col gap-8 ">
 
                 <Summary />
 
                 <Experience />
 
-                <Techs />
             </div>
 
             {/* Right */}
-            <div className="flex flex-col gap-8 col-span-4">
+            <div className="flex flex-col gap-8">
 
                 <Education />
+
+                <Techs />
 
                 <Languages />
 
