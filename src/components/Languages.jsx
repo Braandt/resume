@@ -3,11 +3,11 @@ import Block from "./Block"
 export default function Languages() {
 
     const languages = [
-        { language: 'Portuguese', level: 'native', score: 5 },
+        { language: 'Portuguese', level: 'Native', score: 5 },
         { language: 'English', level: 'Bilingual', score: 5 },
         { language: 'Spanish', level: 'Advanced', score: 4 },
-        { language: 'German', level: 'basic', score: 2 },
-        { language: 'French', level: 'Newbie', score: 1 },
+        { language: 'German', level: 'Basic', score: 2 },
+        { language: 'French', level: 'Beginner', score: 1 },
     ]
 
     return (
