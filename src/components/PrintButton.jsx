@@ -5,7 +5,7 @@ export default function PrintButton() {
         <a
             href="/Resume - Leonardo Brandt.pdf"
             target="_blank"
-            className="fixed bottom-6 right-6 group
+            className="fixed top-6 right-6 group
             md:right-12"
         >
             <div className="h-12 flex items-center justify-center text-white rounded-lg transition-all">
