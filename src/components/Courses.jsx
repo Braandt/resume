@@ -32,6 +32,11 @@ export default function Courses() {
                     subtitle='DeepLearning.AI'
                     href='https://www.coursera.org/learn/machine-learning?page=1'
                 />
+                <LinkElement
+                    title='Graphic Design'
+                    subtitle='CETESC'
+                    href='./CETESC.pdf'
+                />
             </div>
         </Block>
     )
