@@ -35,7 +35,7 @@ export default function Courses() {
                 <LinkElement
                     title='Graphic Design'
                     subtitle='CETESC'
-                    href='./CETESC.pdf'
+                    href='https://leobrandtresume.vercel.app/CETESC.pdf'
                 />
             </div>
         </Block>

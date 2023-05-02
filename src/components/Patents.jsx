@@ -10,12 +10,12 @@ export default function Patents() {
                 <LinkElement
                     title='TABELA PERIÓDICA UNIVERSAL INCLUSIVA E INTERATIVA'
                     subtitle='BR BR 10 2021 013683 9'
-                    href='/patente-tabela.pdf'
+                    href='https://leobrandtresume.vercel.app/patente-tabela.pdf'
                 />
                 <LinkElement
                     title='BLOCOS EM DESENHO UNIVERSAL PARA APRENDIZAGEM COMO ELEMENTOS QUÍMICOS DA TABELA PERIÓDICA'
                     subtitle='BR BR 10 2020 022931 1'
-                    href='/patente-blocos.pdf'
+                    href='https://leobrandtresume.vercel.app/patente-blocos.pdf'
                 />
             </div>
         </Block>
