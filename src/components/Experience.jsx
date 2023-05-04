@@ -14,7 +14,7 @@ export default function Experience() {
                 company='Autonomous'
                 date={{ start: '2022', end: 'present' }}
             >
-                I've been working as front end developer for the last year, developing landing pages for companies, and 3D experiences in web applications. I'm learning at least one new thing every day programming users interfaces and experiences.
+                I've been working as front end developer for the last year, developing landing pages for companies, and 3D experiences in web applications. I'm learning at least one new thing every day programming user interfaces and experiences.
             </ExperienceBlock>
             <hr className="my-4" />
             <ExperienceBlock
@@ -22,7 +22,7 @@ export default function Experience() {
                 company='Bosch GmbH'
                 date={{ start: '2022', end: '2023' }}
             >
-                As a trainee at Bosch do Brasil I was working on the development of a inovation product for a new line of products at the company. I was part of a team of mechanical and eletrical engineers, designing, simulating and testing the prototypes under the agile management system. I learned a lot about product development, project management and teamwork. It was a great experience having to learn how a multinational company such as Bosch works.
+                As a trainee at Bosch do Brazil, I was working on developing an innovative product for a new line of products at the company. I was part of a team of mechanical and electrical engineers, designing, simulating, and testing the prototypes under the agile management system. I learned a lot about product development, project management, and teamwork. It was a great experience having to learn how a multinational company such as Bosch works.
             </ExperienceBlock>
             <hr className="my-4" />
             <ExperienceBlock
@@ -30,7 +30,7 @@ export default function Experience() {
                 company='Ausi do Brasil Ltda'
                 date={{ start: '2020', end: '2022' }}
             >
-                As a mechanical engineer student and newly graduated I worked at Ausi as a mechanical designer, helping a team of engineers design and deliver conveyor belts for an automotive assembly line. I learned many hard and soft skills such as CAD design, prototyping, project development and leadership.
+                As a mechanical engineering student and newly graduated, I worked at Ausi as a mechanical designer, helping a team of engineers design and deliver conveyor belts for an automotive assembly line. I learned many hard and soft skills, such as CAD design, prototyping, project development, and leadership.
             </ExperienceBlock>
         </Block>
     )
