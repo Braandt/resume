@@ -14,7 +14,7 @@ export default function Experience() {
                 company='Autonomous'
                 date={{ start: '2022', end: 'present' }}
             >
-                I've been working as front end developer for the last year, developing landing pages for companies, and 3D experiences in web applications. I'm learning at least one new thing every day programming user interfaces and experiences.
+                I've been working as a full-stack developer for the last year, developing landing pages for companies, and 3D experiences in web applications. I'm learning at least one new thing every day programming user interfaces and experiences.
             </ExperienceBlock>
             <hr className="my-4" />
             <ExperienceBlock
