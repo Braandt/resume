@@ -31,7 +31,7 @@ export default function Header() {
                 >
                     Leonardo de Oliveira Brandt
                 </h1>
-                <h2 className='mb-8 font-thin uppercase sm:text-lg'>Front End Developer</h2>
+                <h2 className='mb-8 font-thin uppercase sm:text-lg'>Full stack Developer</h2>
                 <div
                     className='flex flex-wrap justify-between gap-y-2 gap-x-8
                 md:w-4/6 md:justify-normal'
