@@ -13,7 +13,10 @@ export default function Techs() {
         'Nextjs',
         'Redux',
         'RestAPI',
-        'Tailwind',]
+        'Tailwind',
+        'Excel',
+        'PowerBI'
+    ]
 
     return (
         <Block
