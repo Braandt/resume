@@ -15,7 +15,10 @@ export default function Techs() {
         'RestAPI',
         'Tailwind',
         'Excel',
-        'PowerBI'
+        'PowerBI',
+        'CAD',
+        'SolidWorks',
+        'Blender'
     ]
 
     return (
