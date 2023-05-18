@@ -10,13 +10,14 @@ export default function Experience() {
         >
 
             <ExperienceBlock
-                title='Freelancer front end developer'
-                company='Autonomous'
+                title='Freelancer full stack developer'
                 date={{ start: '2022', end: 'present' }}
             >
-                I've been working as a full-stack developer for the last year, developing landing pages for companies, and 3D experiences in web applications. I'm learning at least one new thing every day programming user interfaces and experiences.
+                As a dedicated and growth-oriented full-stack developer, I have gained valuable experience over the past years in crafting compelling landing pages for companies while also delving into the exciting realm of 3D experiences within web applications. Every day, I am committed to expanding my skill set and knowledge, constantly learning and implementing new techniques to enhance user interfaces and create immersive user experiences.
             </ExperienceBlock>
-            <hr className="my-4" />
+
+            <Separator />
+
             <ExperienceBlock
                 title='Trainee Mechanical Engineer'
                 company='Bosch GmbH'
@@ -24,9 +25,11 @@ export default function Experience() {
             >
                 As a trainee at Bosch do Brazil, I was working on developing an innovative product for a new line of products at the company. I was part of a team of mechanical and electrical engineers, designing, simulating, and testing the prototypes under the agile management system. I learned a lot about product development, project management, and teamwork. It was a great experience having to learn how a multinational company such as Bosch works.
             </ExperienceBlock>
-            <hr className="my-4" />
+
+            <Separator />
+
             <ExperienceBlock
-                title='Freelancer Mechanical Designer'
+                title='Intern Mechanical Designer'
                 company='Ausi do Brasil Ltda'
                 date={{ start: '2020', end: '2022' }}
             >
@@ -40,10 +43,10 @@ export default function Experience() {
 function ExperienceBlock({ title, company, date, children }) {
     return (
         <div>
-            <div className="text-xl font-bold text-primary-600">
+            <div className="text-xl font-semibold text-color1-600">
                 {title}
             </div>
-            <div className="text-primary-500 text-lg">
+            <div className="text-color1-900 text-lg">
                 {company}
             </div>
             <MyDate date={date} />
@@ -53,3 +56,11 @@ function ExperienceBlock({ title, company, date, children }) {
         </div>
     )
 }
+
+function Separator() {
+    return (
+        <hr className="my-5 border-color1/20" />
+    )
+}
+
+export { Separator }

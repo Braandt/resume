@@ -4,7 +4,7 @@ import PrintButton from "./components/PrintButton";
 
 export default function App() {
 	return (
-		<div className="bg-slate-100 aspect-[1.414/2] text-slate-900">
+		<div className="aspect-[1.414/2] text-color1 tracking-wide bg-color5 text-base">
 			<Header />
 
 			<Body />

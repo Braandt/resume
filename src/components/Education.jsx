@@ -1,4 +1,5 @@
 import Block from "./Block"
+import { Separator } from "./Experience"
 import MyDate from "./MyDate"
 
 export default function Education() {
@@ -8,13 +9,15 @@ export default function Education() {
         >
             <EducationBlock
                 title='Specialization in Data Science'
-                company='Universidade Tecnologica Federal do Paraná'
+                company='Federal University of Technology - Paraná'
                 date={{ start: '2022', end: 'present' }}
             />
-            <hr className="my-4" />
+
+            <Separator />
+
             <EducationBlock
                 title='Mechanical Engineer'
-                company='Universidade Tecnologica Federal do Paraná'
+                company='Federal University of Technology - Paraná'
                 date={{ start: '2016', end: '2021' }}
             />
         </Block>

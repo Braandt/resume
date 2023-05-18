@@ -10,7 +10,7 @@ export default function PrintButton() {
         >
             <div className="h-12 flex items-center justify-center text-white rounded-lg transition-all">
                 <div
-                    className="scale-x-0 bg-emerald-500 p-2 transition-all origin-right rounded-l-lg -mr-2 pr-4 font-bold
+                    className="text-[1rem] scale-x-0 bg-emerald-500 p-2 transition-all origin-right rounded-l-lg -mr-2 pr-4 font-bold
                     group-hover:scale-x-100"
                 >
                     Print

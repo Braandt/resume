@@ -14,7 +14,7 @@ export default function Languages() {
         <Block
             title='languages'
         >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
                 {languages.map(language => (
                     <Language
                         key={language.language}

@@ -6,7 +6,7 @@ export default function Patents() {
         <Block
             title='patents'
         >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
                 <LinkElement
                     title='TABELA PERIÓDICA UNIVERSAL INCLUSIVA E INTERATIVA'
                     subtitle='BR BR 10 2021 013683 9'

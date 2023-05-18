@@ -5,6 +5,7 @@ export default function Techs() {
     const techs = ['Html',
         'CSS',
         'Javascript',
+        'C',
         'Python',
         'MongoDB',
         'R',
@@ -40,7 +41,7 @@ export default function Techs() {
 
 function Tech({ children }) {
     return (
-        <div className="bg-white shadow-md px-4 py-2 rounded-full text-primary-600 cursor-default">
+        <div className="bg-white shadow-md px-4 py-2 rounded-lg text-color1-100 cursor-default">
             {children}
         </div>
     )

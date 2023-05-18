@@ -6,7 +6,7 @@ export default function Courses() {
         <Block
             title='training | courses | certificates'
         >
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col gap-4">
                 <LinkElement
                     title='Three.js Journey'
                     subtitle='Bruno Simon'
