@@ -19,6 +19,7 @@ export default function Techs() {
         'PowerBI',
         'CAD',
         'SolidWorks',
+        'AutoCAD',
         'Blender'
     ]
 
