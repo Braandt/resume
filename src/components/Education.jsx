@@ -8,16 +8,24 @@ export default function Education() {
             title='Education'
         >
             <EducationBlock
-                title='Specialization in Data Science'
-                company='Federal University of Technology - Paraná'
+                title='Chef de Cuisine'
+                company='Centro Europeu'
+                date={{ start: '2021', end: '2022' }}
+            />
+
+            <Separator />
+
+            <EducationBlock
+                title='Especialização em Ciência dos Dados'
+                company='Universidade Tecnologica Federal do Paraná'
                 date={{ start: '2022', end: 'present' }}
             />
 
             <Separator />
 
             <EducationBlock
-                title='Mechanical Engineer'
-                company='Federal University of Technology - Paraná'
+                title='Engenharia Mecânica'
+                company='Universidade Tecnologica Federal do Paraná'
                 date={{ start: '2016', end: '2021' }}
             />
         </Block>

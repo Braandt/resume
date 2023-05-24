@@ -3,7 +3,7 @@ import { FaPrint } from "react-icons/fa";
 export default function PrintButton() {
     return (
         <a
-            href="/Resume - Leonardo Brandt.pdf"
+            href="/Cozinheiro - Leonardo Brandt.pdf"
             target="_blank"
             className="fixed top-6 right-6 group
             md:right-12"

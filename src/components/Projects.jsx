@@ -5,7 +5,7 @@ import MyDate from "./MyDate";
 export default function Projects() {
     return (
         <Block
-            title='Projects'
+            title='Pessoal'
         >
 
             <ProjectBlock

@@ -1,4 +1,4 @@
-import { FaEnvelope, FaGithub, FaGlobe, FaLinkedin, FaPhone } from 'react-icons/fa'
+import { FaEnvelope, FaLinkedin, FaPhone } from 'react-icons/fa'
 import { IoLocationSharp } from 'react-icons/io5'
 
 export default function Header() {
@@ -7,8 +7,6 @@ export default function Header() {
         { info: '+55 41 98730-4848', icon: <FaPhone className='rotate-90 text-highlight' />, href: 'https://wa.me/5541987304848' },
         { info: 'Curitiba - PR / Brazil', icon: <IoLocationSharp className='text-highlight' />, href: 'https://www.google.com/maps/place/Curitiba,+State+of+Paran%C3%A1' },
         { info: 'leoobrandt@hotmail.com', icon: <FaEnvelope className='text-highlight' />, href: 'mailto: leoobrandt@hotmail.com' },
-        { info: 'leobrandt.vercel.app', icon: <FaGlobe className='text-highlight' />, href: 'https://leobrandt.vercel.app/' },
-        { info: 'github.com/Braandt', icon: <FaGithub className='text-highlight' />, href: 'https://github.com/Braandt' },
         { info: 'linkedin.com/in/brandtl', icon: <FaLinkedin className='text-highlight' />, href: 'https://www.linkedin.com/in/brandtl/' }
     ]
 
@@ -19,7 +17,7 @@ export default function Header() {
             md:px-32"
         >
             <img
-                className="h-60 rounded-xl mb-4 self-center shadow-2xl
+                className="h-80 rounded-xl mb-4 self-center shadow-2xl
                 sm:mb-0"
                 src="/me2.jpg"
                 alt="Photo of me"
@@ -31,7 +29,7 @@ export default function Header() {
                 >
                     Leonardo de Oliveira Brandt
                 </h1>
-                <h2 className='mb-8 font-thin uppercase sm:text-lg'>Full stack Developer</h2>
+                <h2 className='mb-8 font-thin uppercase sm:text-lg'>Cozinheiro</h2>
                 <div
                     className='flex flex-wrap justify-between gap-y-2 gap-x-8 text-[1rem] italic
                 md:w-4/6 md:justify-normal'

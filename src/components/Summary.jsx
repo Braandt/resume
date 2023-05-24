@@ -2,9 +2,12 @@ import Block from "./Block";
 
 export default function Summary() {
     return (
-        <Block title='Summary'>
+        <Block title='Apresentação'>
             <p className="text-justify">
-                As a full-stack developer with a background in Mechanical Engineering and graphic design, I bring a unique blend of skills to the table. I have a deep proficiency in JavaScript, React, and CSS frameworks, and I have used WebGL with three.js to create immersive web experiences. Additionally, I possess technical knowledge in 3D modeling, prototyping, drawing, and simulating mechanical components. Some of my achievements include developing landing pages for companies and 3D demonstrations of their products. I am an enthusiast of Artificial intelligence, machine learning, and data science, and I am always eager to learn more. I am actively seeking new opportunities in web development where I can contribute my skills and experience to create innovative user experiences and bring positive impacts to the company and the world.
+                Sou um cozinheiro dedicado com muita energia e vontade de aprender. Busco oportunidades em restaurantes conceituados, tanto tradicionais quanto modernos, em diferentes culinárias do mundo.
+                Tenho formação como chef pelo Centro Europeu, onde adquiri conhecimentos sólidos em técnicas culinárias preparo de pratos clássicos, técnicas de corte, saúde e limpeza, criação de menus e gestão de estoque.
+                Sou um profissional comprometido, apaixonado pela gastronomia e disposto a enfrentar desafios para aprimorar minhas habilidades.
+                Além do meu treinamento formal, também busco constantemente aprimorar minhas habilidades culinárias através da pesquisa e experimentação. Sou criativo na combinação de sabores e tenho facilidade em adaptar-me a diferentes estilos de cozinha.
             </p>
         </Block>
     )

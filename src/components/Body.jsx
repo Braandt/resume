@@ -21,8 +21,9 @@ export default function Body() {
 
                 <Experience />
 
-                <Projects />
+                <Courses />
 
+                <Techs />
             </div>
 
             {/* Right */}
@@ -30,14 +31,7 @@ export default function Body() {
 
                 <Education />
 
-                <Techs />
-
                 <Languages />
-
-                <Courses />
-
-                <Patents />
-
             </div>
         </div>
     )

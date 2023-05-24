@@ -3,16 +3,16 @@ import Block from "./Block"
 export default function Languages() {
 
     const languages = [
-        { language: 'Portuguese', level: 'Native', score: 5 },
-        { language: 'English', level: 'Bilingual', score: 5 },
-        { language: 'Spanish', level: 'Advanced', score: 4 },
-        { language: 'German', level: 'Basic', score: 2 },
-        { language: 'French', level: 'Beginner', score: 1 },
+        { language: 'Portugues', level: 'Nativo', score: 5 },
+        { language: 'Inglês', level: 'Bilíngue', score: 5 },
+        { language: 'Espanhol', level: 'Avançado', score: 4 },
+        { language: 'Alemão', level: 'Intermediário', score: 3 },
+        { language: 'Francês', level: 'Iniciante', score: 1 },
     ]
 
     return (
         <Block
-            title='languages'
+            title='Idiomas'
         >
             <div className="flex flex-col gap-4">
                 {languages.map(language => (
