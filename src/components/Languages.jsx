@@ -7,7 +7,7 @@ export default function Languages() {
         { language: 'English', level: 'Bilingual', score: 5 },
         { language: 'Spanish', level: 'Advanced', score: 4 },
         { language: 'German', level: 'Basic', score: 2 },
-        { language: 'French', level: 'Beginner', score: 1 },
+        { language: 'Norwegian', level: 'Beginner', score: 1 },
     ]
 
     return (
