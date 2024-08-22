@@ -5,7 +5,7 @@ export default function Header() {
 
     const infos = [
         { info: '+47 90 406 736', icon: <FaPhone className='rotate-90 text-highlight' />, href: 'https://wa.me/5541987304848' },
-        { info: 'Grønnestølslien 2, 5073, BERGEN', icon: <IoLocationSharp className='text-highlight' />, href: 'https://www.google.com/maps/place/Curitiba,+State+of+Paran%C3%A1' },
+        { info: 'Grønnestølslien 2, 5073, BERGEN', icon: <IoLocationSharp className='text-highlight' />, href: 'https://maps.app.goo.gl/dkNCTQUKA9UV7oDw8' },
         { info: 'leoobrandt@hotmail.com', icon: <FaEnvelope className='text-highlight' />, href: 'mailto: leoobrandt@hotmail.com' },
         { info: 'leobrandt.vercel.app', icon: <FaGlobe className='text-highlight' />, href: 'https://leobrandt.vercel.app/' },
         { info: 'github.com/Braandt', icon: <FaGithub className='text-highlight' />, href: 'https://github.com/Braandt' },
